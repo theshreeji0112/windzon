@@ -626,6 +626,11 @@ h1, h2, h3, h4, h5, h6 {
   opacity: 0.9 !important;
 }
 
+/* Footer titles - ensure white on dark background */
+.footer-area .footer-widget-title {
+  color: #ffffff !important;
+}
+
 /* ========== Partner/Trust Section ========== */
 .partner-area img {
   max-height: 50px !important;

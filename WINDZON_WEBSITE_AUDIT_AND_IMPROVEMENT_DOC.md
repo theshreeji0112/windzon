@@ -117,9 +117,9 @@ All pages have:
 
 | Location | Phone | Address |
 |----------|-------|---------|
-| Header | +2 123 654 7898 | 25/B Milford Road, New York |
+| Header | +91 9712002300 | Kalawad Road, Rajkot |
 | Contact page | +2 123 4565 789 | 25/B Milford, New York, USA |
-| CTA section | +2 123 654 7898 | – |
+| CTA section | +91 9712002300 | – |
 
 **Required:** Use one consistent phone number and address across all pages.
 
