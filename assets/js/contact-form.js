@@ -24,15 +24,12 @@
                 data: formData
             })
             .done(function(response) {
-                // Make sure that the formMessages div has the 'success' class.
                 $(formMessages).removeClass('error');
                 $(formMessages).addClass('success');
-
-                // Set the message text.
                 $(formMessages).text(response);
-
-                // Clear the form.
                 $('#contact-form input,#contact-form textarea').val('');
+                var redirect = $(form).data('redirect') || 'thank-you.html';
+                setTimeout(function() { window.location.href = redirect; }, 2000);
             })
             .fail(function(data) {
                 // Make sure that the formMessages div has the 'error' class.

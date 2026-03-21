@@ -1,0 +1,679 @@
+/*=====================================================
+   Windzon Premium & Responsive Enhancements
+   - Refined color palette & typography
+   - Improved spacing & hierarchy
+   - Full responsive design for all devices
+=======================================================*/
+
+/* ========== Premium Color & Typography ========== */
+:root {
+  --windzon-navy: #1a2744;
+  --windzon-charcoal: #2d3748;
+  --windzon-accent: #c9a227;
+  --windzon-accent-hover: #b8921f;
+  --windzon-light: #f7f8fa;
+  --windzon-white: #ffffff;
+}
+
+/* Google Fonts - Premium typography */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Source+Sans+3:wght@300;400;500;600;700&display=swap');
+
+body {
+  font-family: 'Source Sans 3', 'Inter', sans-serif !important;
+  color: var(--windzon-charcoal) !important;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Inter', sans-serif !important;
+  color: var(--windzon-navy) !important;
+  font-weight: 600 !important;
+}
+
+/* Theme button premium styling */
+.theme-btn {
+  background: linear-gradient(135deg, var(--windzon-accent) 0%, var(--windzon-accent-hover) 100%) !important;
+  border: none !important;
+  padding: 14px 28px !important;
+  font-weight: 600 !important;
+  letter-spacing: 0.3px !important;
+  box-shadow: 0 4px 15px rgba(201, 162, 39, 0.3) !important;
+  transition: all 0.3s ease !important;
+}
+
+.theme-btn:hover {
+  transform: translateY(-2px) !important;
+  box-shadow: 0 6px 20px rgba(201, 162, 39, 0.4) !important;
+}
+
+.theme-btn2 {
+  background: transparent !important;
+  border: 2px solid var(--windzon-white) !important;
+  color: var(--windzon-white) !important;
+}
+
+.theme-btn2:hover {
+  background: var(--windzon-white) !important;
+  color: var(--windzon-navy) !important;
+}
+
+/* ========== Header Layout - Spacing & Typography ========== */
+/* Spacing between logo and navigation */
+.navbar-brand {
+  margin-right: 2rem !important;
+}
+
+@media (min-width: 992px) {
+  .navbar-brand {
+    margin-right: 2.5rem !important;
+  }
+  
+  /* Reduced font size for cleaner nav menu */
+  .navbar .nav-item .nav-link {
+    font-size: 15px !important;
+    margin-right: 1.5rem !important;
+  }
+  
+  .navbar .nav-item:last-child .nav-link {
+    margin-right: 0 !important;
+  }
+  
+  /* Spacing between nav and Get A Quote button */
+  .nav-right {
+    margin-left: 1rem !important;
+  }
+}
+
+/* Tablet (768px - 991px) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .navbar-brand {
+    margin-right: 1.5rem !important;
+  }
+  
+  .navbar .nav-item .nav-link {
+    font-size: 14px !important;
+    margin-right: 1rem !important;
+  }
+}
+
+/* Mobile - collapsed menu */
+@media (max-width: 767.98px) {
+  .navbar-brand {
+    margin-right: 1rem !important;
+  }
+  
+  .navbar .nav-item .nav-link {
+    font-size: 15px !important;
+    padding: 12px 0 !important;
+  }
+}
+
+/* ========== Enhanced Spacing & Layout ========== */
+.about-area, .service-area, .window-area, .door-area, .choose-area, .blog-area {
+  padding-top: 5rem !important;
+  padding-bottom: 5rem !important;
+}
+
+@media (min-width: 992px) {
+  .about-area, .service-area, .window-area, .door-area, .choose-area, .blog-area {
+    padding-top: 6rem !important;
+    padding-bottom: 6rem !important;
+  }
+}
+
+/* Hero section - cleaner, more premium */
+.hero-single {
+  min-height: 85vh !important;
+  display: flex !important;
+  align-items: center !important;
+}
+
+.hero-title {
+  font-size: clamp(2rem, 5vw, 3.5rem) !important;
+  line-height: 1.2 !important;
+}
+
+.hero-content p {
+  font-size: 1.05rem !important;
+  max-width: 540px !important;
+}
+
+/* ========== Responsive - Mobile First ========== */
+
+/* Extra small devices (phones, 320px and up) */
+@media (max-width: 575.98px) {
+  .hero-single {
+    min-height: 70vh !important;
+    text-align: center !important;
+  }
+  
+  .hero-content {
+    text-align: center !important;
+  }
+  
+  .hero-content p {
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
+  
+  .hero-btn {
+    flex-direction: column !important;
+    gap: 12px !important;
+    align-items: center !important;
+  }
+  
+  .hero-btn .theme-btn {
+    width: 100% !important;
+    max-width: 280px !important;
+    text-align: center !important;
+  }
+  
+  .site-title {
+    font-size: 1.75rem !important;
+  }
+  
+  .header-top-contact ul {
+    flex-direction: column !important;
+    gap: 8px !important;
+    text-align: center !important;
+  }
+  
+  .header-top-contact li {
+    font-size: 0.9rem !important;
+  }
+  
+  .counter-box {
+    flex-direction: column !important;
+    text-align: center !important;
+    padding: 20px 0 !important;
+  }
+  
+  .window-service-item, .door-service-item {
+    padding: 15px !important;
+    text-align: center !important;
+  }
+  
+  .quote-wrapper .row {
+    flex-direction: column-reverse !important;
+  }
+  
+  .quote-img {
+    margin-bottom: 20px !important;
+  }
+  
+  .cta-wrapper .row {
+    flex-direction: column !important;
+    text-align: center !important;
+  }
+  
+  .cta-text h1 {
+    font-size: 1.5rem !important;
+  }
+  
+  .cta-btn {
+    margin-top: 20px !important;
+  }
+  
+  .footer-widget-wrapper {
+    padding-top: 3rem !important;
+    padding-bottom: 2rem !important;
+  }
+  
+  .footer-widget-box {
+    margin-bottom: 2rem !important;
+    text-align: center !important;
+  }
+  
+  .footer-list {
+    text-align: center !important;
+  }
+  
+  .copyright .row {
+    flex-direction: column !important;
+    text-align: center !important;
+    gap: 15px !important;
+  }
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .hero-single {
+    min-height: 75vh !important;
+  }
+  
+  .service-item, .blog-item {
+    margin-bottom: 2rem !important;
+  }
+  
+  .testimonial-slider .owl-item {
+    padding: 0 10px !important;
+  }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .hero-title {
+    font-size: 2.25rem !important;
+  }
+  
+  .navbar-collapse {
+    background: var(--windzon-white) !important;
+    padding: 20px !important;
+    border-radius: 8px !important;
+    box-shadow: 0 10px 40px rgba(0,0,0,0.1) !important;
+    margin-top: 15px !important;
+  }
+  
+  .window-service .col-md-4,
+  .door-service .col-md-4,
+  .blinds-service .col-md-4 {
+    flex: 0 0 50% !important;
+    max-width: 50% !important;
+  }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  .container {
+    max-width: 1140px !important;
+  }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1200px !important;
+  }
+}
+
+/* ========== Touch-friendly & Accessibility ========== */
+@media (hover: none) and (pointer: coarse) {
+  .theme-btn, .nav-link, a {
+    min-height: 44px !important;
+    display: inline-flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+  }
+  
+  .navbar-toggler {
+    padding: 12px 16px !important;
+  }
+}
+
+/* ========== Form Improvements ========== */
+.form-control, .form-select {
+  border-radius: 8px !important;
+  padding: 12px 18px !important;
+  border: 1px solid #e2e8f0 !important;
+  transition: border-color 0.3s ease !important;
+}
+
+.form-control:focus, .form-select:focus {
+  border-color: var(--windzon-accent) !important;
+  box-shadow: 0 0 0 3px rgba(201, 162, 39, 0.15) !important;
+}
+
+/* ========== Service & Feature Cards ========== */
+.service-item {
+  border-radius: 12px !important;
+  overflow: hidden !important;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.06) !important;
+  transition: all 0.3s ease !important;
+}
+
+.service-item:hover {
+  transform: translateY(-5px) !important;
+  box-shadow: 0 12px 40px rgba(0,0,0,0.12) !important;
+}
+
+/* Service cards - equal height across all screens */
+.service-area .row > [class*="col-"] {
+  display: flex !important;
+}
+
+.service-area .service-item {
+  display: flex !important;
+  flex-direction: column !important;
+  width: 100% !important;
+  flex: 1 !important;
+  min-height: 100% !important;
+}
+
+.service-area .service-item .service-img {
+  flex-shrink: 0 !important;
+}
+
+.service-area .service-item .service-content {
+  display: flex !important;
+  flex-direction: column !important;
+  flex: 1 !important;
+}
+
+.service-area .service-item .service-text {
+  flex: 1 !important;
+  margin-bottom: 0 !important;
+}
+
+.service-area .view-all-services-row .col-12 {
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+}
+
+/* Window & Door service type cards - equal height across all screens */
+.window-service .row > [class*="col-"],
+.door-service .row > [class*="col-"],
+.blinds-service .row > [class*="col-"] {
+  display: flex !important;
+}
+
+.window-service-item,
+.door-service-item,
+.blinds-service .door-service-item {
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: center !important;
+  justify-content: center !important;
+  width: 100% !important;
+  flex: 1 !important;
+  min-height: 100% !important;
+}
+
+/* Feature cards - equal height across all screens */
+.feature-area .row > [class*="col-"],
+.feature-wrapper .row > [class*="col-"] {
+  display: flex !important;
+}
+
+.feature-area .feature-item,
+.feature-wrapper .feature-item {
+  display: flex !important;
+  flex-direction: column !important;
+  width: 100% !important;
+  flex: 1 !important;
+  min-height: 100% !important;
+  padding: 2rem 1.5rem !important;
+  border-radius: 12px !important;
+  transition: all 0.3s ease !important;
+}
+
+.feature-area .feature-item p,
+.feature-wrapper .feature-item p {
+  flex: 1 !important;
+  margin-bottom: 0 !important;
+}
+
+.feature-item:hover {
+  transform: translateY(-3px) !important;
+}
+
+/* ========== Card Grid - Proper Minimum Spacing on Mobile/Tablet (2-column layout) ========== */
+@media (max-width: 991.98px) {
+  .feature-wrapper .row,
+  .service-area .row,
+  .blog-area .row,
+  .blinds-types .row,
+  .choose-area .row {
+    --bs-gutter-x: 1.5rem !important;
+    --bs-gutter-y: 1.5rem !important;
+  }
+  
+  /* Window/Door service grids use g-0 - restore proper spacing on tablet */
+  .window-service .row.g-0,
+  .door-service .row.g-0 {
+    --bs-gutter-x: 1rem !important;
+    --bs-gutter-y: 1rem !important;
+  }
+  
+  .window-service .row.g-0 > [class*="col-"],
+  .door-service .row.g-0 > [class*="col-"],
+  .blinds-service .row.g-0 > [class*="col-"] {
+    padding-left: 0.5rem !important;
+    padding-right: 0.5rem !important;
+    padding-top: 0.5rem !important;
+    padding-bottom: 0.5rem !important;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .feature-wrapper .row,
+  .service-area .row,
+  .blog-area .row,
+  .blinds-types .row {
+    --bs-gutter-x: 1.25rem !important;
+    --bs-gutter-y: 1.25rem !important;
+  }
+  
+  .window-service .row.g-0 > [class*="col-"],
+  .door-service .row.g-0 > [class*="col-"],
+  .blinds-service .row.g-0 > [class*="col-"] {
+    padding-left: 0.5rem !important;
+    padding-right: 0.5rem !important;
+    padding-top: 0.5rem !important;
+    padding-bottom: 0.5rem !important;
+  }
+}
+
+/* Extra small - ensure vertical spacing between stacked cards */
+@media (max-width: 575.98px) {
+  .feature-wrapper .row > [class*="col-"],
+  .service-area .row > [class*="col-md-6"],
+  .blog-area .row > [class*="col-md-6"],
+  .blinds-types .row > [class*="col-"] {
+    margin-bottom: 1rem !important;
+  }
+  
+  .feature-wrapper .row > [class*="col-"]:last-child,
+  .service-area .row > [class*="col-md-6"]:last-child,
+  .blog-area .row > [class*="col-md-6"]:last-child,
+  .blinds-types .row > [class*="col-"]:last-child {
+    margin-bottom: 0 !important;
+  }
+}
+
+/* Blog cards - equal height & consistent design across all screens */
+.blog-area .row > .col-md-6.col-lg-4 {
+  display: flex !important;
+  margin-bottom: 1.5rem !important;
+}
+
+.blog-area .blog-item {
+  display: flex !important;
+  flex-direction: column !important;
+  width: 100% !important;
+  flex: 1 !important;
+  min-height: 100% !important;
+  border-radius: 12px !important;
+  overflow: hidden !important;
+  transition: all 0.3s ease !important;
+  margin-bottom: 0 !important;
+}
+
+.blog-area .blog-item .blog-item-img {
+  flex-shrink: 0 !important;
+  overflow: hidden !important;
+  aspect-ratio: 16 / 10 !important;
+}
+
+.blog-area .blog-item .blog-item-img img {
+  display: block !important;
+  width: 100% !important;
+  height: 100% !important;
+  object-fit: cover !important;
+  transition: transform 0.3s ease !important;
+}
+
+.blog-area .blog-item .blog-item-info {
+  display: flex !important;
+  flex-direction: column !important;
+  flex: 1 !important;
+  padding: 1.25rem 0 0 0 !important;
+}
+
+.blog-area .blog-item .blog-item-info p {
+  flex: 1 !important;
+  margin-bottom: 1rem !important;
+}
+
+.blog-area .blog-item:hover {
+  transform: translateY(-5px) !important;
+  box-shadow: 0 12px 40px rgba(0,0,0,0.12) !important;
+}
+
+/* Blog cards - responsive spacing between rows and columns */
+@media (max-width: 767.98px) {
+  .blog-area .row > .col-md-6.col-lg-4 {
+    margin-bottom: 1.25rem !important;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .blog-area .row > .col-md-6.col-lg-4 {
+    margin-bottom: 1.5rem !important;
+  }
+}
+
+@media (min-width: 992px) {
+  .blog-area .row > .col-md-6.col-lg-4 {
+    margin-bottom: 1.75rem !important;
+  }
+}
+
+/* Contact info cards - equal height across all screens */
+.contact-content .row > [class*="col-"] {
+  display: flex !important;
+}
+
+.contact-content .contact-info {
+  display: flex !important;
+  flex-direction: column !important;
+  width: 100% !important;
+  flex: 1 !important;
+  min-height: 100% !important;
+}
+
+.contact-content .contact-info .contact-info-content {
+  display: flex !important;
+  flex-direction: column !important;
+  flex: 1 !important;
+}
+
+.contact-content .contact-info .contact-info-content p {
+  flex: 1 !important;
+  margin-bottom: 0 !important;
+}
+
+/* ========== Testimonial Slider Responsive ========== */
+@media (max-width: 991.98px) {
+  .testimonial-slider .owl-stage-outer {
+    padding: 0 10px !important;
+  }
+  
+  .testimonial-single {
+    padding: 20px !important;
+  }
+}
+
+/* Testimonial cards - equal height across all screens */
+.testimonial-slider .owl-stage {
+  display: flex !important;
+  align-items: stretch !important;
+}
+
+.testimonial-slider .owl-item {
+  display: flex !important;
+}
+
+.testimonial-slider .owl-item .testimonial-single {
+  display: flex !important;
+  flex-direction: column !important;
+  width: 100% !important;
+  flex: 1 !important;
+  min-height: 100% !important;
+}
+
+.testimonial-single .testimonial-quote {
+  flex: 1 !important;
+  display: flex !important;
+  flex-direction: column !important;
+}
+
+.testimonial-single .testimonial-quote p {
+  flex: 1 !important;
+  margin-bottom: 0 !important;
+}
+
+/* ========== Space Between Counter & Testimonial CTA ========== */
+.counter-area + .cta-area {
+  margin-top: 2.5rem !important;
+}
+
+.counter-area + .cta-area .cta-wrapper {
+  margin-top: 0 !important;
+}
+
+/* ========== Space Between CTA & Footer ========== */
+.cta-area {
+  margin-bottom: 2.5rem !important;
+}
+
+/* ========== Footer Opening Hours ========== */
+.footer-opening-hours p {
+  color: var(--footer-text-color, rgba(255,255,255,0.8)) !important;
+  font-size: 0.95rem !important;
+}
+
+.footer-widget-title .fa-clock {
+  opacity: 0.9 !important;
+}
+
+/* Footer titles - ensure white on dark background */
+.footer-area .footer-widget-title {
+  color: #ffffff !important;
+}
+
+/* ========== Partner/Trust Section ========== */
+.partner-area img {
+  max-height: 50px !important;
+  width: auto !important;
+  opacity: 0.7 !important;
+  filter: grayscale(100%) !important;
+  transition: all 0.3s ease !important;
+}
+
+.partner-area img:hover {
+  opacity: 1 !important;
+  filter: grayscale(0%) !important;
+}
+
+/* ========== Smooth Scrolling ========== */
+html {
+  scroll-behavior: smooth !important;
+}
+
+/* ========== Navbar Sticky - Mobile ========== */
+@media (max-width: 991.98px) {
+  .header.sticky .main-navigation {
+    padding: 10px 0 !important;
+  }
+}
+
+/* ========== Breadcrumb Responsive ========== */
+@media (max-width: 575.98px) {
+  .site-breadcrumb {
+    padding: 60px 0 50px !important;
+  }
+  
+  .breadcrumb-title {
+    font-size: 1.5rem !important;
+  }
+  
+  .breadcrumb-menu {
+    font-size: 0.9rem !important;
+  }
+}
+
+/* ========== Ensure viewport & touch ========== */
+img {
+  max-width: 100% !important;
+  height: auto !important;
+}
