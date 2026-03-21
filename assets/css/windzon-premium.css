@@ -677,3 +677,110 @@ img {
   max-width: 100% !important;
   height: auto !important;
 }
+
+/* ========== Contact & Social Cleanup ========== */
+.header-phone-group {
+  display: flex !important;
+  align-items: center !important;
+  gap: 12px !important;
+  flex-wrap: wrap !important;
+}
+
+.header-phone-group .secondary-number {
+  padding-left: 12px !important;
+  margin-left: 4px !important;
+  border-left: 1px solid rgba(255, 255, 255, 0.25) !important;
+}
+
+.header-top-social {
+  display: flex !important;
+  align-items: center !important;
+}
+
+.header-top-social a:last-child {
+  margin-right: 0 !important;
+}
+
+.footer-phone-group {
+  align-items: flex-start !important;
+}
+
+.footer-phone-links {
+  display: flex !important;
+  flex-direction: column !important;
+  gap: 6px !important;
+}
+
+.footer-phone-links a {
+  line-height: 1.5 !important;
+}
+
+.cta-number-group {
+  display: inline-flex !important;
+  flex-direction: column !important;
+  align-items: flex-end !important;
+  gap: 8px !important;
+}
+
+.cta-number {
+  display: inline-flex !important;
+  align-items: center !important;
+}
+
+.cta-number-secondary {
+  font-size: 24px !important;
+  font-weight: 600 !important;
+}
+
+.contact-number-list {
+  display: flex !important;
+  flex-direction: column !important;
+  gap: 6px !important;
+}
+
+.contact-number-list a,
+.thank-you-contact a {
+  font-weight: 600 !important;
+}
+
+@media (max-width: 991.98px) {
+  .header-phone-group {
+    gap: 8px !important;
+  }
+
+  .header-phone-group .secondary-number {
+    border-left: 0 !important;
+    margin-left: 0 !important;
+    padding-left: 0 !important;
+  }
+
+  .cta-number-group {
+    align-items: center !important;
+  }
+}
+
+@media (max-width: 575.98px) {
+  .header-phone-group {
+    flex-direction: column !important;
+    align-items: center !important;
+  }
+
+  .header-top-social {
+    justify-content: center !important;
+    gap: 14px !important;
+  }
+
+  .header-top-social a {
+    margin-left: 0 !important;
+  }
+
+  .footer-phone-links {
+    align-items: center !important;
+  }
+
+  .thank-you-contact {
+    display: flex !important;
+    flex-direction: column !important;
+    gap: 6px !important;
+  }
+}
