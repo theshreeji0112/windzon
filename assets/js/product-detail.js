@@ -240,147 +240,267 @@ document.addEventListener("DOMContentLoaded", function () {
                 }),
                 "top-hung-windows": itemConfig({
                     title: "Top Hung Windows",
-                    tagline: "System Detail",
-                    intro: "This page presents top-hung options in a cleaner technical format, focusing on controlled ventilation, weather-ready detailing, and project-appropriate type choices.",
+                    tagline: "Catalogue Detail",
+                    intro: "A functional outward-opening window system designed for controlled ventilation, weather protection, and modern architectural applications. It is ideal for high-level openings, bathrooms, kitchens, and commercial facades.",
                     overviewTitle: "Top Hung Window Series",
-                    overviewSummary: "Top-hung windows are ideal for ventilation-focused spaces where controlled opening, rain protection, and compact performance matter. They suit both homes and utility-driven commercial areas.",
+                    overviewSummary: "Top-hung windows are hinged at the top and open outward from the bottom, allowing ventilation even during rain while helping prevent water ingress. This series includes standard, premium friction-stay, and heavy-duty top-guided options.",
                     overviewImage: "assets/img/window/01.jpg",
                     overviewPoints: [
-                        "Controlled outward opening for safer ventilation",
-                        "Works well in bathrooms, staircases, and service spaces",
-                        "Compatible with casement-family detailing",
-                        "Available in compact and premium depth options"
+                        "Frame depth: 50 mm - 100 mm",
+                        "Locking type: Single Handle with Multipoint Locking",
+                        "Glass range: 5 mm to 28 mm (Double glazed options available)",
+                        "Hardware: Friction stays, handles, restrictors (Kinlong / Giesse type systems)"
                     ],
-                    sourceNote: "Top-hung references are adapted from the casement-family catalogue flow and rebuilt into Windzon’s inner page structure.",
+                    sourceNote: "General system data and type descriptions for this section are based on the updated top-hung window details you provided and are rebuilt into Windzon’s catalogue-style layout.",
                     types: [
                         typeSection(
-                            "TH - 30",
-                            "30 mm Top Hung Window",
+                            "TH - 01",
+                            "Standard Top Hung (Butt Hinge Type)",
                             "assets/img/window/01.jpg",
-                            "A slim top-hung option for smaller openings and ventilation zones where a clean, economical, and dependable solution is preferred.",
+                            "A basic and economical top-hung system suitable for small to medium openings.",
                             [
-                                "Frame depth: 30 mm",
-                                "Glass range: 4 mm to 6 mm",
-                                "Sealing overlap: 6 mm with gasket",
-                                "Window height: up to 1530 mm",
-                                "Suitable for compact bathrooms and utility zones",
-                                "Top-hung opening format available in the system family",
-                                "Lightweight daily use profile",
-                                "Good for secondary facade ventilation"
+                                "Frame depth: 40 mm - 50 mm",
+                                "Locking type: Single point lock with handle",
+                                "Glass range: 5 mm - 12 mm",
+                                "Openable sight line: 80 mm - 95 mm",
+                                "Sealing: Brush / EPDM gasket",
+                                "Max size: Up to 1200 mm height",
+                                "Hardware: Butt hinges, simple handle"
                             ]
                         ),
                         typeSection(
-                            "TH - 40",
-                            "40 mm Top Hung Window",
+                            "TH - 02",
+                            "Friction Stay Top Hung (Premium System)",
                             "assets/img/window/01.jpg",
-                            "A more balanced top-hung system for medium-size residential and commercial openings that need a stronger frame, cleaner look, and better glazing flexibility.",
+                            "A premium system with friction stay hinges for smooth operation, better load capacity, and controlled opening angles.",
                             [
-                                "Frame depth: 40 mm",
-                                "Glass range: 5 mm to 28 mm",
-                                "Fix sight line: 39 mm",
-                                "Window height: up to 1830 mm",
-                                "Suitable for medium ventilation openings",
-                                "Offers stronger frame build than the compact variant",
-                                "Compatible with premium hardware",
-                                "Ideal for practical daily ventilation"
+                                "Frame depth: 50 mm - 70 mm",
+                                "Locking type: Multipoint locking with handle",
+                                "Glass range: 6 mm - 24 mm",
+                                "Openable sight line: 90 mm - 110 mm",
+                                "Sealing overlap: 6 mm - 7 mm (EPDM gasket)",
+                                "Max size: 1500 mm height",
+                                "Hardware: Stainless steel friction stays, restrictor, premium handles",
+                                "Allows controlled opening and better wind resistance due to friction stay mechanism"
                             ]
                         ),
                         typeSection(
-                            "TH - 50",
-                            "50 mm Top Hung Window",
+                            "TH - 03",
+                            "Top Guided / Heavy Duty Top Hung",
                             "assets/img/window/01.jpg",
-                            "A premium top-hung solution for larger and more design-sensitive projects where insulation, visual quality, and stronger overall performance are important.",
+                            "A high-performance system for large and heavy shutters, commonly used in commercial and facade applications.",
                             [
-                                "Frame depth: 50 mm",
-                                "Glass range: 5 mm to 38 mm",
-                                "Openable sight line: 97.5 mm",
-                                "Window height: up to 2100 mm",
-                                "Suitable for premium homes and designer facades",
-                                "Supports larger glazing requirements",
-                                "Premium finish and hardware compatibility",
-                                "Best for high-value ventilation compositions"
+                                "Frame depth: 70 mm - 100 mm",
+                                "Locking type: Multipoint locking system",
+                                "Glass range: 8 mm - 38 mm (Double / Triple glazing)",
+                                "Openable sight line: 100 mm - 120 mm",
+                                "Fix sight line: 55 mm - 70 mm",
+                                "Sealing overlap: 6 mm - 8 mm",
+                                "Max size: Up to 2000 mm height / heavy sash (up to ~130 kg)",
+                                "Hardware: Heavy-duty friction stays, restrictors, concealed hinges"
                             ]
                         )
                     ]
                 }),
                 "bay-bow-windows": itemConfig({
                     title: "Bay & Bow Windows",
-                    tagline: "Design Detail",
-                    intro: "This inner page shifts bay and bow windows into a more catalogue-style story with type-led presentation, helping clients compare layout intent and usage differences more clearly.",
-                    overviewTitle: "Bay & Bow Window Collection",
-                    overviewSummary: "Bay and bow windows are feature-driven systems that add projection, depth, and panoramic value to the elevation. They are ideal for premium residences, villas, and spaces that need stronger facade character.",
+                    tagline: "Catalogue Detail",
+                    intro: "A projecting window system designed to extend outward from the facade, creating additional interior space, panoramic views, and enhanced architectural aesthetics.",
+                    overviewTitle: "Bay & Bow Window System",
+                    overviewSummary: "Bay and bow windows are ideal for premium residential and design-led projects where added depth, wider views, and a stronger facade statement are important.",
                     overviewImage: "assets/img/window/01.jpg",
                     overviewPoints: [
-                        "Adds depth and visual interest to the facade",
-                        "Creates wider outward view and stronger daylight spread",
-                        "Can combine fixed and openable sections",
+                        "Projects outward from the facade for extra spatial effect",
+                        "Creates panoramic views and stronger daylight spread",
+                        "Supports angular and curved panel compositions",
                         "Well suited to premium residential architecture"
                     ],
-                    sourceNote: "These type comparisons are structured for Windzon’s site and focus on layout and project intent rather than duplicating the source catalogue.",
+                    sourceNote: "Bay and bow window system content is updated from the technical details you provided and rebuilt into Windzon’s catalogue-style layout.",
                     types: [
-                        typeSection("BW - Corner", "Corner Bay Window", "assets/img/window/01.jpg", "A clean angular bay composition suited to living rooms and facades that need a crisp architectural projection.", ["Best for corner projections", "Strong daylight entry", "Ideal for villas and premium homes", "Can combine fixed and openable leaves", "Suitable for lounge and feature spaces", "Premium elevation effect"]),
-                        typeSection("BW - Panorama", "Panoramic Bow Window", "assets/img/window/01.jpg", "A softer panoramic bow-style treatment that creates a premium visual curve and a broader, more immersive view line.", ["Curved visual character", "Panoramic glazing emphasis", "Ideal for front elevation focal points", "Rich premium appearance", "Supports interior feature seating concepts", "Suitable for luxury projects"]),
-                        typeSection("BW - Mixed", "Mixed Feature Composition", "assets/img/window/01.jpg", "A tailored composition that blends bay-style framing with custom opening combinations for project-specific design intent.", ["Custom panel arrangement", "Fixed and openable mix", "Tailored projection depth", "Ideal for bespoke architecture", "Works for statement facades", "Flexible fabrication strategy"])
+                        typeSection(
+                            "BW - 01",
+                            "Bay Window (Angular Type)",
+                            "assets/img/window/01.jpg",
+                            "Typically configured with 3 panels and angled sides at 30 or 45 degrees, this system creates a strong projecting form and a crisp architectural bay effect.",
+                            [
+                                "Frame depth: 60 mm - 100 mm",
+                                "Locking type: Multipoint locking (for openable panels)",
+                                "Glass range: 5 mm - 28 mm",
+                                "Openable sight line: 85 mm - 110 mm",
+                                "Fix sight line: 50 mm - 65 mm",
+                                "Corner details: Mullion / corner post (90 degree / angled connectors)",
+                                "Sealing overlap: 6 mm - 8 mm (EPDM gasket)",
+                                "Window height (max.): 1500 mm - 2100 mm",
+                                "Hardware: Hinges, handles, mullion connectors"
+                            ]
+                        ),
+                        typeSection(
+                            "BW - 02",
+                            "Bow Window (Curved Type)",
+                            "assets/img/window/01.jpg",
+                            "A curved multi-panel system using 4 to 6 panels to form a smooth bow profile with broader viewing angles and a softer architectural expression.",
+                            [
+                                "Frame depth: 70 mm - 120 mm",
+                                "Locking type: Multipoint locking",
+                                "Glass range: 6 mm - 32 mm",
+                                "Openable sight line: 90 mm - 120 mm",
+                                "Fix sight line: 55 mm - 70 mm",
+                                "Corner details: Curved / segmented joints",
+                                "Sealing overlap: 6 mm - 8 mm",
+                                "Window height (max.): Up to 2400 mm",
+                                "Hardware: Custom connectors, reinforced profiles"
+                            ]
+                        )
                     ]
                 }),
                 "sash-windows": itemConfig({
                     title: "Sash Windows",
-                    tagline: "Design Detail",
-                    intro: "The sash window page now behaves more like a design sheet, with type blocks explaining how the system can adapt to classic, modern, and renovation-led spaces.",
-                    overviewTitle: "Sash Window Design Family",
-                    overviewSummary: "Sash windows bring traditional visual rhythm into modern aluminium construction. They are suited to design-led residences, renovations, and projects wanting a more classic facade language.",
+                    tagline: "Catalogue Detail",
+                    intro: "A vertically sliding window system combining traditional aesthetics with modern balancing mechanisms for smooth operation.",
+                    overviewTitle: "Sash Window System",
+                    overviewSummary: "Sash windows are ideal for projects that want a classic visual language with practical vertical sliding functionality and balanced modern hardware performance.",
                     overviewImage: "assets/img/window/01.jpg",
                     overviewPoints: [
-                        "Classic visual character with modern aluminium durability",
-                        "Good for villas, bungalows, and premium renovations",
-                        "Supports decorative glazing and finish-led detailing",
-                        "Balances heritage styling with easier maintenance"
+                        "Vertically sliding operation with traditional character",
+                        "Suitable for premium homes and renovation-led designs",
+                        "Combines heritage aesthetics with modern balancing systems",
+                        "Available in single and double hung formats"
                     ],
-                    sourceNote: "This page is customised for Windzon and uses a catalogue-like comparison format without copying the source layout directly.",
+                    sourceNote: "Sash window system content is updated from the technical details you provided and rebuilt into Windzon’s catalogue-style layout.",
                     types: [
-                        typeSection("SW - Classic", "Classic Sash Type", "assets/img/window/01.jpg", "A traditional sash-style arrangement with balanced proportions and decorative character suited to more heritage-inspired facades.", ["Classic elevation language", "Ideal for villas and renovations", "Supports decorative glass options", "Premium finish flexibility", "Low maintenance aluminium frame", "Tailored hardware choices"]),
-                        typeSection("SW - Modern", "Modern Sash Type", "assets/img/window/01.jpg", "A simplified sash-inspired system for contemporary homes that want a nod to classic style without a heavy traditional look.", ["Cleaner frame expression", "Good for modern homes", "Balanced proportions", "Flexible colour selection", "Easy project integration", "Suitable for premium bedrooms and lounges"]),
-                        typeSection("SW - Premium", "Premium Designer Sash", "assets/img/window/01.jpg", "A more refined sash expression suited to high-end projects that want heritage influence with contemporary material confidence.", ["High-end visual finish", "Luxury home friendly", "Decorative detailing support", "Custom fabrication", "Architectural fit-out friendly", "Project-specific styling"])
+                        typeSection(
+                            "SASH - 01",
+                            "Single Hung Sash",
+                            "assets/img/window/01.jpg",
+                            "A vertically sliding sash system where the top panel remains fixed and the bottom panel is movable.",
+                            [
+                                "Frame depth: 50 mm - 90 mm",
+                                "Locking type: Cam lock / latch",
+                                "Glass range: 4 mm - 20 mm",
+                                "Sash sight line: 70 mm - 95 mm",
+                                "Sealing: Brush / weather pile + gasket",
+                                "Max height: 1500 mm",
+                                "Hardware: Balancing springs, locks"
+                            ]
+                        ),
+                        typeSection(
+                            "SASH - 02",
+                            "Double Hung Sash",
+                            "assets/img/window/01.jpg",
+                            "A vertically sliding sash system where both the top and bottom panels are movable for improved ventilation flexibility.",
+                            [
+                                "Frame depth: 60 mm - 100 mm",
+                                "Locking type: Central cam lock",
+                                "Glass range: 5 mm - 24 mm",
+                                "Sash sight line: 80 mm - 100 mm",
+                                "Sealing overlap: 5 mm - 7 mm",
+                                "Max height: 1800 mm",
+                                "Hardware: Spiral / block balance system"
+                            ]
+                        )
                     ]
                 }),
                 "slimline-protection-system": itemConfig({
                     title: "Slimline Protection System",
-                    tagline: "Performance Detail",
-                    intro: "This page reframes the slimline protection system into a more technical and premium presentation, centered on slim aesthetics, enhanced hardware, and cleaner protected openings.",
-                    overviewTitle: "Slimline Protection Collection",
-                    overviewSummary: "Slimline protection systems are built for projects that want minimal sight lines without sacrificing hardware confidence, design quality, or security-oriented detailing.",
+                    tagline: "Catalogue Detail",
+                    intro: "A modern safety system integrated with windows to provide protection without compromising aesthetics or visibility.",
+                    overviewTitle: "Slimline Protection System",
+                    overviewSummary: "This system is designed for projects that need residential or high-rise safety while preserving a clean visual language and minimal obstruction.",
                     overviewImage: "assets/img/window/01.jpg",
                     overviewPoints: [
-                        "Slim visible section for modern elevations",
-                        "Enhanced locking and safety-oriented detailing",
-                        "Suitable for premium villas and offices",
-                        "Supports performance glazing combinations"
+                        "Modern safety integration without heavy visual impact",
+                        "Supports aluminium grill, cable, and combined window systems",
+                        "Suitable for residential and high-rise safety use",
+                        "Preserves visibility and aesthetics"
                     ],
-                    sourceNote: "This product section is original to Windzon and follows the same catalogue-style layout while remaining distinct from the reference design.",
+                    sourceNote: "Slimline protection system content is updated from the technical details you provided and rebuilt into Windzon’s catalogue-style layout.",
                     types: [
-                        typeSection("SP - 01", "Standard Slimline Protection", "assets/img/window/01.jpg", "A clean entry slimline option for premium residences where aesthetics and basic security support are both important.", ["Slim visible framing", "Suitable for residences and offices", "Supports single and performance glass", "Neat elevation finish", "Security-ready hardware", "Low maintenance system"]),
-                        typeSection("SP - 02", "Advanced Protection Type", "assets/img/window/01.jpg", "A stronger slimline solution with upgraded locking compatibility and enhanced use in premium or security-conscious projects.", ["Enhanced locking support", "Premium modern look", "Good for higher-end projects", "Compatible with safety glass", "Improved structural confidence", "Tailored fabrication available"]),
-                        typeSection("SP - 03", "Signature Slimline Series", "assets/img/window/01.jpg", "A design-forward system for projects where architecture, visible lightness, and premium hardware detailing all need to work together.", ["Ultra-clean visual language", "Architect-focused design intent", "Supports refined finish palette", "Premium facade integration", "Suitable for signature homes", "High-value presentation"])
+                        typeSection(
+                            "SP - 01",
+                            "Slim Aluminium Grill System",
+                            "assets/img/window/01.jpg",
+                            "A slim aluminium grill system designed for residential safety with clean lines and discreet profile sizes.",
+                            [
+                                "Profile size: 10 mm - 25 mm",
+                                "Spacing: 100 mm - 150 mm",
+                                "Finish: Powder coated / anodized",
+                                "Mounting: Inside / outside frame fixing",
+                                "Application: Residential safety"
+                            ]
+                        ),
+                        typeSection(
+                            "SP - 02",
+                            "Stainless Steel Cable (Invisible Grill)",
+                            "assets/img/window/01.jpg",
+                            "A low-visibility stainless steel cable protection system designed to preserve views while providing secure high-rise and residential protection.",
+                            [
+                                "Cable thickness: 2 mm - 3 mm SS wire",
+                                "Spacing: 50 mm - 100 mm",
+                                "Tension system: Anchored frame with tensioners",
+                                "Height limit: Up to 3000 mm",
+                                "Finish: SS natural / coated"
+                            ]
+                        ),
+                        typeSection(
+                            "SP - 03",
+                            "Integrated Window + Grill System",
+                            "assets/img/window/01.jpg",
+                            "A combined safety and window solution where the grill is integrated within the frame or attached externally for high-rise protection without compromising design.",
+                            [
+                                "Frame depth: 60 mm - 100 mm",
+                                "Glass range: 5 mm - 24 mm",
+                                "Integration: Grill within frame / external attachment",
+                                "Sealing: Gasket-based system",
+                                "Application: High-rise safety + aesthetics"
+                            ]
+                        )
                     ]
                 }),
                 "thermal-windows": itemConfig({
                     title: "Thermal Windows",
-                    tagline: "Performance Detail",
-                    intro: "This product page is rebuilt around comfort, insulation intent, and premium all-season usability so it reads like a technical solution page rather than a generic content block.",
-                    overviewTitle: "Thermal Window System Series",
-                    overviewSummary: "Thermal windows are suited to projects that prioritize comfort, improved glazing performance, and refined aluminium aesthetics with better energy-conscious detailing.",
+                    tagline: "Catalogue Detail",
+                    intro: "A high-performance insulated window system designed to reduce heat transfer, improve energy efficiency, and enhance acoustic performance.",
+                    overviewTitle: "Thermal (Thermal Break) Window System",
+                    overviewSummary: "Thermal break windows are ideal for projects that need better energy performance, improved acoustic insulation, and premium glazing compatibility in modern aluminium systems.",
                     overviewImage: "assets/img/window/01.jpg",
                     overviewPoints: [
-                        "Improved interior comfort and insulation intent",
-                        "Supports high-performance and double glazing",
-                        "Suitable for homes, offices, and premium upgrades",
-                        "Strong fit for climate-conscious projects"
+                        "Designed to reduce heat transfer and improve efficiency",
+                        "Supports double and triple glazing solutions",
+                        "Suitable for premium homes, offices, and facade projects",
+                        "Improves acoustic and thermal performance"
                     ],
-                    sourceNote: "This thermal system presentation is original to Windzon and is arranged in the same comparison-first catalogue spirit you requested.",
+                    sourceNote: "Thermal break window system content is updated from the technical details you provided and rebuilt into Windzon’s catalogue-style layout.",
                     types: [
-                        typeSection("TW - Comfort", "Comfort Thermal Window", "assets/img/window/01.jpg", "A performance-led window type for homes and offices that need better comfort with a modern aluminium look.", ["Comfort-focused build", "Double glazing compatible", "Suitable for homes and offices", "Better heat control intent", "Contemporary finish options", "Daily-use friendly design"]),
-                        typeSection("TW - Premium", "Premium Thermal Window", "assets/img/window/01.jpg", "A premium thermal solution for larger projects where glazing performance, acoustic control, and architectural finish all matter more.", ["Enhanced glazing compatibility", "Premium acoustic and thermal intent", "Suitable for luxury homes", "Commercial-ready appearance", "Custom size fabrication", "Premium hardware support"]),
-                        typeSection("TW - Signature", "Signature Thermal Series", "assets/img/window/01.jpg", "A high-end thermal system for design-sensitive projects wanting comfort, performance, and upscale facade quality in one solution.", ["High-end insulated concept", "Luxury project ready", "Supports refined color palette", "Large opening suitability", "Better comfort positioning", "Elevated premium look"])
+                        typeSection(
+                            "TW - 01",
+                            "Thermal Casement / Top Hung",
+                            "assets/img/window/01.jpg",
+                            "A high-performance thermal break window system for casement and top-hung applications where better insulation and premium glazing are required.",
+                            [
+                                "Frame depth: 60 mm - 120 mm",
+                                "Thermal break: 14 mm - 34 mm polyamide strip",
+                                "Glass range: 18 mm - 42 mm (Double / Triple glazing)",
+                                "Openable sight line: 90 mm - 120 mm",
+                                "Fix sight line: 55 mm - 75 mm",
+                                "Sealing overlap: 6 mm - 8 mm (EPDM + multi-seal)",
+                                "U-value: 1.2 - 2.5 W/m2K",
+                                "Max height: 2400 mm",
+                                "Hardware: Premium (Giesse / Kinlong / Schuco compatible)"
+                            ]
+                        ),
+                        typeSection(
+                            "TW - 02",
+                            "Thermal Sliding Window",
+                            "assets/img/window/01.jpg",
+                            "A thermal sliding system designed for wider openings where insulation performance, larger panel handling, and improved track sealing are important.",
+                            [
+                                "Frame depth: 80 mm - 150 mm",
+                                "Glass range: 20 mm - 36 mm",
+                                "Track system: Double / triple track",
+                                "Sealing: Brush + gasket combination",
+                                "Max panel weight: 150 - 250 kg"
+                            ]
+                        )
                     ]
                 })
             }
