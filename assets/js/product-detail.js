@@ -189,65 +189,51 @@ document.addEventListener("DOMContentLoaded", function () {
                 }),
                 "fixed-windows": itemConfig({
                     title: "Fixed Windows",
-                    tagline: "System Detail",
-                    intro: "The fixed window detail page is refocused around applications, visibility, and integration with opening systems so it reads more like a modern product sheet.",
-                    overviewTitle: "Fixed Window Design Series",
-                    overviewSummary: "Fixed windows are used where daylight, visual openness, and clean elevation matter most. They work especially well in staircases, facades, feature walls, and mixed window compositions.",
-                    overviewImage: "assets/img/window/01.jpg",
+                    tagline: "Catalogue Detail",
+                    intro: "This product page now follows the same detailed catalogue format as Casement and Sliding Windows, with the focus on the 30mm and 40mm fixed window systems.",
+                    overviewTitle: "Fixed Window System Range",
+                    overviewSummary: "Fixed windows are used where daylight, visual openness, and clean elevation matter most. This section now presents the 30mm and 40mm fixed window options in the same structured style.",
+                    overviewImage: "FW/FW30.png",
                     overviewPoints: [
                         "High glass-to-frame visual impact",
+                        "30mm and 40mm system choices",
                         "Suitable for design-led facades and stair cores",
-                        "Can be paired with openable sections in mixed compositions",
                         "Supports laminated, insulated, and performance glass"
                     ],
                     sourceNote: "Fixed and mixed-format references are organised from the same casement-family design language and adapted for Windzon presentation.",
                     types: [
                         typeSection(
                             "FW - 30",
-                            "30 mm Fixed Window",
-                            "assets/img/window/01.jpg",
-                            "A compact fixed solution for smaller feature openings and clean modern compositions where minimal maintenance and daylight entry are the main goals.",
+                            "30mm Fixed Windows",
+                            ["FW/FW30.png", "FW/FW30(1).png"],
+                            "A compact fixed window solution for smaller feature openings and clean modern compositions where minimal maintenance and daylight entry are the main goals.",
                             [
                                 "Frame depth: 30 mm",
-                                "Glass range: 4 mm to 6 mm",
-                                "Fix sight line: 44.4 mm",
-                                "Corner detail: 45 degree cut with corner connector",
-                                "Sealing overlap: 6 mm with gasket",
-                                "Window height: up to 1530 mm",
-                                "Best fit: compact fixed compositions",
-                                "Good for staircase and secondary facade windows"
+                                "Locking type: Not applicable (Fixed system)",
+                                "Glass range: 4 mm to 12 mm",
+                                "Openable sight line: Not applicable",
+                                "Fix sight line: 28 mm - 32 mm",
+                                "Corner details: 45 degree cut with corner cleat / connector",
+                                "Sealing overlap: 4 mm - 5 mm (EPDM / PVC gasket sealing)",
+                                "Window height (max.): 1200 mm - 1500 mm",
+                                "Hardware: Basic accessories (gaskets, setting blocks, screws)"
                             ]
                         ),
                         typeSection(
-                            "FW - 32",
-                            "32 mm Fixed + Openable Combination",
-                            "assets/img/window/01.jpg",
-                            "A refined fixed-and-openable compatible format for projects that want a clean large glazed look while maintaining one active opening section in the composition.",
+                            "FW - 40",
+                            "40mm Fixed Windows",
+                            ["FW/FW40.png", "FW/FW40(1).png"],
+                            "A balanced fixed window solution for residential and commercial projects where a clean framed look, practical glazing flexibility, and dependable structural performance are important.",
                             [
-                                "Frame depth: 32 mm",
-                                "Glass range: 4 mm to 6 mm",
-                                "Fix sight line: 40 mm",
-                                "Window height: up to 1650 mm",
-                                "Supports mixed fixed and outward-openable composition",
-                                "Good for double-window arrangements",
-                                "Elegant for residential bedroom and living elevations",
-                                "Hardware ready for coordinated combinations"
-                            ]
-                        ),
-                        typeSection(
-                            "FW - 50",
-                            "50 mm Fixed + Openable Composition",
-                            "assets/img/window/01.jpg",
-                            "A premium fixed-window composition that supports larger glass, more substantial framing, and cleaner integration in luxury homes and commercial spaces.",
-                            [
-                                "Frame depth: 50 mm",
-                                "Glass range: 5 mm to 38 mm",
-                                "Fix sight line: 46 mm",
-                                "Window height: up to 2100 mm",
-                                "Compatible with top-hung and outside-openable pairings",
-                                "Better suited for premium and larger format layouts",
-                                "Supports stronger glazing and frame options",
-                                "Ideal for statement facade use"
+                                "Frame depth: 40 mm",
+                                "Locking type: Not applicable (Fixed system)",
+                                "Glass range: 5 mm to 20 mm",
+                                "Openable sight line: Not applicable",
+                                "Fix sight line: 35 mm - 40 mm",
+                                "Corner details: 45 degree cut with corner cleat / connector",
+                                "Sealing overlap: 5 mm - 6 mm (EPDM gasket sealing)",
+                                "Window height (max.): 1500 mm - 1800 mm",
+                                "Hardware: Standard accessories (EPDM gaskets, spacers, fixing screws)"
                             ]
                         )
                     ]
