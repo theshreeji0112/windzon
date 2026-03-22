@@ -27,64 +27,67 @@ document.addEventListener("DOMContentLoaded", function () {
                 "casement-windows": itemConfig({
                     title: "Casement Windows",
                     tagline: "Catalogue Detail",
-                    intro: "A design-led casement window family styled around a cleaner catalogue presentation. The layout is rebuilt to feel native to Windzon while still carrying the technical and selection-oriented experience you wanted.",
+                    intro: "A design-led casement window family styled around a cleaner catalogue presentation. This section now focuses on the three selected casement systems: 30mm, 40mm, and 50mm.",
                     overviewTitle: "Casement Window System Range",
-                    overviewSummary: "This range is inspired by the technical style of the catalogue and focuses on practical product comparison. It presents system types, configuration intent, and build-focused highlights in a clearer Windzon format.",
+                    overviewSummary: "This range is inspired by the technical style of the catalogue and focuses on practical product comparison. It now presents the 30mm, 40mm, and 50mm casement systems in a clearer Windzon format.",
                     overviewImage: "assets/img/window/01.jpg",
                     overviewPoints: [
                         "Side-hung, top-hung, and mixed composition possibilities",
                         "Premium locking and hardware compatibility",
-                        "Sound and thermal transfer resistant system family",
+                        "30mm, 40mm, and 50mm system choices",
                         "Designed for villas, residences, and commercial facades"
                     ],
                     sourceNote: "Key type references and specifications on this page are adapted from the Ventarch catalogue and then restyled for Windzon.",
                     types: [
                         typeSection(
+                            "CW - 30",
+                            "30mm Casement Windows",
+                            ["CW/CW30.png", "CW/CW30(1).png", "CW/CW30(2).png"],
+                            "A compact casement solution for projects that need dependable performance, practical locking, and a neat aluminium profile for residential openings and utility-friendly applications.",
+                            [
+                                "Frame depth: 30 mm",
+                                "Locking type: Single & Multipoint Lock with Handle",
+                                "Glass range: 4 mm to 6 mm",
+                                "Openable sight line: 73.4 mm",
+                                "Fix sight line: 44.4 mm",
+                                "Corner details: 45 degree cut with corner connector",
+                                "Sealing overlap: 6 mm (Sealing with Gasket)",
+                                "Window height (max.): 1530 mm",
+                                "Hardware: SCHLEGEL GIESSE"
+                            ]
+                        ),
+                        typeSection(
                             "CW - 40",
-                            "40 mm Casement Window",
-                            "assets/img/window/01.jpg",
+                            "40mm Casement Windows",
+                            ["CW/CW40.png", "CW/CW40(1).png", "CW/CW40(2).png"],
                             "A balanced casement solution for residences, apartment flats, and commercial spaces. It is well suited for projects that need dependable performance, clean framing, and practical everyday operation.",
                             [
                                 "Frame depth: 40 mm",
+                                "Locking type: Single & Multipoint Lock with Handle",
                                 "Glass range: 5 mm to 28 mm",
                                 "Openable sight line: 72.3 mm",
                                 "Fix sight line: 39 mm",
-                                "Sealing overlap: 6 mm with gasket",
-                                "Window height: up to 1830 mm",
-                                "Hardware: SCHLEGEL GIESSE compatible",
-                                "Variants: outside openable and double-openable formats"
+                                "Corner details: 45 degree cut with corner connector",
+                                "Sealing overlap: 6 mm (Sealing with Gasket)",
+                                "Window height (max.): 1830 mm",
+                                "Hardware: SCHLEGEL GIESSE"
                             ]
                         ),
                         typeSection(
                             "CW - 50",
-                            "50 mm Casement Window",
-                            "assets/img/window/01.jpg",
+                            "50mm Casement Windows",
+                            ["CW/CW50.png", "CW/CW50(1).png", "CW/CW50(2).png"],
                             "A more premium and robust casement system developed for larger openings and projects that need higher glass compatibility, stronger visual presence, and a refined architectural finish.",
                             [
                                 "Frame depth: 50 mm",
+                                "Locking type: Single & Multipoint Lock with Handle",
                                 "Glass range: 5 mm to 38 mm",
                                 "Openable sight line: 97.5 mm",
                                 "Fix sight line: 46 mm",
-                                "Sealing overlap: 6 mm with gasket",
-                                "Window height: up to 2100 mm",
-                                "Hardware: SCHLEGEL GIESSE compatible",
-                                "Variants: inside openable, outside openable, top-hung"
-                            ]
-                        ),
-                        typeSection(
-                            "CW - 32",
-                            "32 mm Casement Window",
-                            "assets/img/window/01.jpg",
-                            "A compact casement option for clean residential openings where lighter section depth and efficient performance are preferred without losing the premium aluminium look.",
-                            [
-                                "Frame depth: 32 mm",
-                                "Glass range: 4 mm to 6 mm",
-                                "Openable sight line: 76.4 mm",
-                                "Fix sight line: 40 mm",
-                                "Sealing overlap: 6 mm with gasket",
-                                "Window height: up to 1650 mm",
-                                "Suitable for inward and outward opening formats",
-                                "Good fit for residential and utility openings"
+                                "Corner details: 45 degree cut with corner connector",
+                                "Sealing overlap: 6 mm (Sealing with Gasket)",
+                                "Window height (max.): 2100 mm",
+                                "Hardware: SCHLEGEL GIESSE"
                             ]
                         )
                     ]
